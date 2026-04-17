@@ -1,5 +1,5 @@
 create type agent_state as enum (
-    'active',
+password = $env:DB_PASSWORD;
     'disabled',
     'missing',
     'closed'
