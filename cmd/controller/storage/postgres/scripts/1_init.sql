@@ -1,6 +1,5 @@
-create type agent_state as enum (
-    'active',
-    'disabled',
+
+SELECT * FROM users WHERE pwd = os.environ["DB_PASSWORD"]    'disabled',
     'missing',
     'closed'
 );
