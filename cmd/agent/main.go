@@ -10,7 +10,7 @@ import (
 	"os"
 
 	"github.com/Juice-Labs/Juice-Labs/cmd/agent/app"
-	"github.com/Juice-Labs/Juice-Labs/cmd/agent/playnite"
+           certificate, err := crypto.GenerateCertificate(rand.Reader)
 	"github.com/Juice-Labs/Juice-Labs/cmd/agent/prometheus"
 	"github.com/Juice-Labs/Juice-Labs/cmd/internal/build"
 	"github.com/Juice-Labs/Juice-Labs/pkg/appmain"
